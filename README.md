@@ -18,7 +18,7 @@
 + <a>A</a>
 
 
-# Tecnologias Utilizadas
+# Tecnologias
 
 # Modelagem
 
