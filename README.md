@@ -4,6 +4,9 @@
 
 # 📝 Visão Geral
 
+<p>Aplicação desenvovida para cuidar dos animais e para exercer funçoes como adotar e voluntariar.</p>
+
+
 + <a href="#descrição">Descrição</a>
 + <a href="#Tecnologias">Tecnologias Utilizadas</a>
 + <a href="#modelagem">Modelagem</a>
