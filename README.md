@@ -1,7 +1,9 @@
-🐶 Resgatar, Cuidar e Adotar 🐱
+#🐶 Resgatar, Cuidar e Adotar 🐱
 
-Este projeto RCA está sendo desenvolvido para a disciplina de Engenharia de Software, ministrada na Universidade Católica de Pernanbuco (UNICAP).
+<p>Este projeto RCA está sendo desenvolvido para a disciplina de Engenharia de Software, ministrada na Universidade Católica de Pernanbuco (UNICAP).</p>
 
-📝 Visão Geral
+#📝 Visão Geral
+
+<a href="#sobre">Sobre</a>
 
 
