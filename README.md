@@ -4,18 +4,18 @@
 
 # 📝 Visão Geral
 
-<a href="#descricao">Descrição</a>
-<a href="#tecnologia">Tecnologias Utilizadas</a>
-<a href="#modelagem">Modelagem</a>
++ <a href="#descricao">Descrição</a>
++ <a href="#tecnologia">Tecnologias Utilizadas</a>
++ <a href="#modelagem">Modelagem</a>
 
 
 # Descrição
-<a>A</a>
-<a>A</a>
-<a>A</a>
-<a>A</a>
-<a>A</a>
-<a>A</a>
++ <a>A</a>
++ <a>A</a>
++ <a>A</a>
++ <a>A</a>
++ <a>A</a>
++ <a>A</a>
 
 
 # Tecnologias Utilizadas
