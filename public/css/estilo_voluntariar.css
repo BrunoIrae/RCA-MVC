@@ -1,0 +1,136 @@
+body{
+	background-color:#296149;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 3rem;
+  line-height: 1.4;
+}
+
+.home-thing{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-weight: 600;
+	font-size: 60px;
+	text-transform: uppercase;
+	margin-top: 15%;
+}
+
+.title-image{
+	margin-top: 30%;
+	margin-left:5%;
+   width: 100%;
+  transform: rotate(7deg);
+}
+
+#features{
+	padding: 7% 15%;
+	
+}
+
+
+
+
+.features-box{
+text-align:center;
+padding-top: 2%;
+transition: background-color 3s;
+transition: color 3s;
+
+}
+
+
+.features-box:hover{
+background-color: #676734;
+color:#FFF;
+}
+
+h3 {
+	font-family: "Montserrat-Bold";
+	color:#FFF;
+}
+
+
+.icon{
+	color:#fff;
+	margin-bottom: 1rem;
+	 transition: color 1s;
+	
+}
+
+
+.icon:hover{
+	color:#fff;
+}
+
+#testimonials{
+	text-align:center;
+	background-color: #676734;
+	 transition: background-color 3s;
+}
+
+
+#testimonials:hover{
+	background-color:#ADAD5A;
+
+}
+
+
+
+.img-1{
+	border-radius: 100%;
+}
+
+
+#testimonials h1{
+	font-family: "Montserrat-Bold";
+	font-weight:bold;
+	font-size:3rem;
+}
+
+
+.carousel-item{
+	padding: 7% 15%;
+}
+	
+#pricing {
+  padding: 3% 10%;
+}
+
+.price-item {
+  margin-bottom: 4%;
+}
+
+.card-header{
+	
+	background-color:#676734;
+	
+}
+
+.card{
+background-color:#ADAD5A;
+	 transition: background-color 3s;
+}
+
+
+.card:hover{
+	background-color:#C9C994;
+}
+
+
+#cta{
+  text-align: center;
+  padding: 5% 15%;
+  background-color: #676734;
+}
+
+#cta-text{
+  padding-bottom: 2%;
+  color: #fff;
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+}
+
