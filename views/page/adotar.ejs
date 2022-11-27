@@ -1,0 +1,44 @@
+<%- include('../partials/head_pet.ejs') %>
+
+  <body>
+    <%- include('../partials/estilo.ejs') %>
+    <table class="table">
+      <thead>
+        <tr>
+          <br>
+          <th scope="col">id</th>
+          <th scope="col">Nome Pet</th>
+          <th scope="col">Sexo Pet</th>
+          <th scope="col">Data de Acolhida</th>
+          <th scope="col">Comentarios</th>
+          <th scope="col">Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <% Pets.forEach((pet)=> { %>
+          <tr>
+            <td>
+              <%- pet.id %>
+            </td>
+            <td>
+              <%- pet.nome_pet %>
+            </td>
+            <td>
+              <%- pet.sexo_pet %>
+            </td>
+            <td>
+              <%- pet.data_resgate %>
+            </td>
+            <td>
+              <%- pet.comentario %>
+            </td>
+            <td>
+              <a href="/pet/edit/<%- pet.id %>"class = "btn btn-dark">Editar</a>
+              <a href="/pet/adocao/<%- pet.id %>"class = "btn btn-success">Adotar</a>
+            </td>
+          </tr>
+          <% })%>
+      </tbody>
+    </table>
+  </body>

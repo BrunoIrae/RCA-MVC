@@ -1,0 +1,36 @@
+<%- include('../partials/head_login.ejs') %>
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img//undraw_shopping_re_3wst.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="/logado" method="post">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Entrar</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="/cadastro">Cadastrar</a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail">
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Senha</label>
+                        <input id="email" type="senha" name="senha" placeholder="Digite sua senha">
+                    </div>
+                </div>
+                <div class="continue-button">
+                    <div><input type="submit" class="btn btn-success" name="" id="" value="Logar"></div>
+                </form>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>

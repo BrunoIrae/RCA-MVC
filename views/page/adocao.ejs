@@ -1,0 +1,35 @@
+<%- include('../partials/head_adocao.ejs') %>
+
+<body>
+<form action="/pet/adocao/:id" method="post">
+
+  <header class="cabecalho">
+  </header>
+
+  <main class="conteudo">
+    <section class="conteudo-principal">
+
+      <div class="conteudo-principal-escrito">
+      <% Pets.forEach((pet)=> { %>
+        <h1 class="conteudo-principal-escrito-titulo" value="<%- pet.nome_user%>"><%- pet.nome_pet %></h1>
+        <h2 class="conteudo-principal-escrito-subtitulo">Adotar é um ato de amor</h2>
+        <a href="/pet/excluir/<%- pet.id %>" class="conteudo-principal-escrito-botao">Adotar</a>
+        <% })%>
+      </div>
+      <img class="conteudo-principal-imagem"src="ballebot.svg" alt="Imagem pet">
+    </section>
+
+    <section class="conteudo-secundario">
+      <h3 class="conteudo-secundario-titulo">Descrição</h3>
+      <% Pets.forEach((pet)=> { %>
+      <p class="conteudo-secundario-paragrafo" value="<%- pet.comentario%>"><%- pet.comentario %></p>
+      <% })%>
+    </section>
+  </main>
+
+  <footer class="rodape">
+  </footer>
+  </form>
+</body>
+
+</html>

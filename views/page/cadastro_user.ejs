@@ -1,0 +1,43 @@
+<%- include('../partials/head_login.ejs') %>
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img//undraw_shopping_re_3wst.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="/cadastrado" method="post">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastrar</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="/login">Login</a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="email">Nome</label>
+                        <input id="email" type="nome_user" name="nome_user" placeholder="Digite seu nome">
+                    </div>
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail">
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Senha</label>
+                        <input id="email" type="senha" name="senha" placeholder="Digite sua senha">
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Confirme sua senha</label>
+                        <input id="email" type="confirma_senha" name="confirma_senha" placeholder="Confirme sua senha" >
+                    </div>
+                </div>
+                <div class="continue-button">
+                    <div><input type="submit" class="btn btn-success" name="" id="" value="Cadastrar"></div>
+                </form>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>

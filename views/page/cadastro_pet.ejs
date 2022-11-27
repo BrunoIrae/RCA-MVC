@@ -1,0 +1,67 @@
+<%- include('../partials/head_login.ejs') %>
+
+    <body>
+        <div class="container">
+            <div class="form-image">
+                <img src="assets/img//undraw_shopping_re_3wst.svg" alt="">
+            </div>
+            <div class="form">
+                <form action="/pet/save" method="post">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Cadastrar Pet</h1>
+                        </div>
+                        <div class="login-button">
+                            <button><a href="/adotar">Adotar</a></button>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="nome_pet">Nome Pet</label>
+                            <input id="firstname" type="text" name="nome_pet" placeholder="Digite seu primeiro nome"
+                                required>
+                        </div>
+
+
+                        <div class="input-box">
+                            <label for="date"><b>Data de Acolhimento</b></label>
+                            <input type="date" name="data_resgate" id="date" required>
+                        </div>
+
+
+                        <div class="input-box">
+                            <label for="comentario">Comentário</label>
+                            <input id="comentario" type="text" name="comentario" placeholder="Digite seu sobrenome"
+                                required>
+                        </div>
+
+
+
+                        <div class="gender-inputs">
+                            <div class="input-box">
+                                <label for="sexo_pet">Sexo Pet</label>
+
+                                <div class="gender-input">
+                                    <input id="female" type="radio" value="Fêmea" name="sexo_pet">
+                                    <label for="female" value="Fêmea">Fêmea</label>
+                                </div>
+
+                                <div class="gender-input">
+                                    <input id="male" type="radio" value="Macho" name="sexo_pet">
+                                    <label for="male" value="Macho">Macho</label>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="continue-button">
+                        <div><input type="submit" class="btn btn-success" name="" id="" value="Cadastrar Pet"></div>
+                    </form>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+    
