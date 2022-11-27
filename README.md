@@ -4,7 +4,7 @@
 
 # 📝 Visão Geral
 
-+ <a href="#descriçao">Descrição</a>
++ <a href="#descrição">Descrição</a>
 + <a href="#tecnologias utilizadas">Tecnologias Utilizadas</a>
 + <a href="#modelagem">Modelagem</a>
 
